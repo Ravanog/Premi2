@@ -92,7 +92,7 @@ async def start_command(client: Client, message: Message):
             "<b>⛔️ You are Bᴀɴɴᴇᴅ from using this bot.</b>\n\n"
             "<i>Contact support if you think this is a mistake.</i>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)]]
+                [[InlineKeyboardButton("ɪᴏɪɴ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ ✨", url=f'https://t.me/+2dygCeQ4oGcwY2M9')]]
             )
         )
 
@@ -210,7 +210,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)],
+                    [InlineKeyboardButton("ɪᴏɪɴ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ ✨", url=f'https://t.me/+2dygCeQ4oGcwY2M9')],
 
     ]
         )
